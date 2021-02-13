@@ -13,6 +13,13 @@ Ember CP Validations support for Ember Changeset
 - [ember-cp-validations](https://github.com/offirgolan/ember-cp-validations) v3.1.0 or above
 - [ember-changeset](https://github.com/poteto/ember-changeset)
 
+Compatibility
+------------------------------------------------------------------------------
+
+* Ember.js v3.16 or above
+* Ember CLI v2.13 or above
+* Node.js v10 or above
+
 ## Installation
 
 ```
@@ -30,6 +37,7 @@ If it is a bug [please open an issue on GitHub](http://github.com/offirgolan/emb
 
 ### The Template Helper
 
+<<<<<<< HEAD
 This addon updates the `changeset` helper by creating a changeset instance via the [`createChangeset`](#using-createchangeset).
 
 ```hbs
@@ -81,6 +89,10 @@ import Ember from 'ember';
 import createChangeset from 'ember-changeset-cp-validations';
 
 const { Component } = Ember;
+=======
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
+>>>>>>> 64ca393... v3.0.0...v3.24.0
 
 export default Component.extend({
   init() {

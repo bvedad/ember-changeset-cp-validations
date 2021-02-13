@@ -48,7 +48,7 @@ const Validations = buildValidations({
   })
 }, {
   debounce: 0,
-  volatile: true
+  // volatile: true
 });
 
 export default DS.Model.extend(Validations, {
